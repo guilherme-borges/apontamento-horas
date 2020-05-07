@@ -1,0 +1,18 @@
+.signin-container {
+    margin: 50px auto;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.link-signup {
+    margin-top: 1.2em;
+    text-align: center;
+    color: #363062;
+    font-size: 1.5em;
+}
+
+.link-signup:hover {
+    opacity: 85%;
+    transition: 0.2s;
+}
