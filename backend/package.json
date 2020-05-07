@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilherme-borges/apontamento-horas.git"
+  },
+  "author": "Guilherme Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilherme-borges/apontamento-horas/issues"
+  },
+  "homepage": "https://github.com/guilherme-borges/apontamento-horas#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
