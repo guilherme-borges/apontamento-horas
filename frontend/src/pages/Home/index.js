@@ -3,7 +3,7 @@ import React from 'react';
 import Menu from '../../components/Menu'
 import './styles.css';
 
-export default function Dashboard() {
+export default function Home() {
     return (
         <div>
 

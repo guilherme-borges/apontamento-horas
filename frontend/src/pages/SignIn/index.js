@@ -25,7 +25,7 @@ export default function SignIn() {
 
                 login(response.data.token);
 
-                history.push('/dashboard');
+                history.push('/home');
 
             } catch (error) {
                 alert('Erro ao fazer login, tente novamente.');
