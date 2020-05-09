@@ -4,6 +4,7 @@ import { isAuthenticated } from "./services/auth";
 
 import SignIn from './pages/SignIn';
 import Home from './pages/Home';
+import Projects from './pages/Projects';
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
     <Route
@@ -23,6 +24,7 @@ const Routes = () => (
         <Switch>
             <Route path="/" exact component={SignIn}></Route>
             <PrivateRoute path="/home" component={Home}></PrivateRoute>
+            <PrivateRoute path="/projects" component={Projects}></PrivateRoute>
         </Switch>
     </BrowserRouter>
 );
