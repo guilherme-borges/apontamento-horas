@@ -22,7 +22,7 @@ export default function SignIn() {
         } else {
             try {
                 const response = await api.post('sessions', { username, password });
-
+                
                 login(response.data.token);
 
                 history.push('/home');
